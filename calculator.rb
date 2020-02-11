@@ -1,36 +1,22 @@
-first_number="1"
-second_number="2"
-def addition(num1, num2)
+first_number = 8
+second_number = 5
+sum = first_number + second_number
+difference = first_number - second_number
+product = first_number * second_number
+quotient = first_number / second_number
 
-  return num1+num2
-end
+def sum(first_number, second_number) 
+    first_number + second_number
+end 
 
-def subtraction(num1, num2)
+def difference(first_number, second_number)
+    difference = first_number - second_number
+end 
 
-  return num1-num2
-end
+def product(first_number, second_number)
+    product = first_number * second_number
+end 
 
-def division(num1, num2)
-
-  return num1/num2
-end
-
-def multiplication(num1, num2)
-
-  return num1*num2
-end
-
-def modulo(num1, num2)
-
-  return num1%num2
-end
-
-def square_root(num)
-
-  return Math.sqrt(num)
-end
-
-def square_root(num)
-
-  Math.sqrt(num)
-end
+def quotient(first_number, second_number)
+    quotient = first_number / second_number
+end 
