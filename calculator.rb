@@ -1,4 +1,5 @@
-firsT_number
+first_number="num1"
+second_number="num2"
 def addition(num1, num2)
 
   return num1+num2
